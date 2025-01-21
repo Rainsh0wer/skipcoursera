@@ -1,6 +1,6 @@
 # Auto Skip Video & Auto Skip PeerReview 
 <br><br>
-<img src="https://github.com/user-attachments/assets/90cb520a-e779-4e4c-a0af-f47adc970830" height="100" weight="auto"/>
+<img src="https://github.com/user-attachments/assets/5d84f92e-4cf7-436d-9782-def3827e38dc" height="100" weight="auto"/>
 <br><br><br>
 Đây là một đoạn mã JavaScript giúp tự động tua video đến đoạn Video được tick xanh ( Dành cho video ko thể tua được trên Coursera ) và 1 đoạn code để tự động tick max điểm trong phần peer reviews
 
