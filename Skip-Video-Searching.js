@@ -21,7 +21,9 @@ function skipAndNext() {
       const nextButton = document.querySelector('button[aria-label="Next Item"]');
       if (nextButton) {
         nextButton.click();
-        setTimeout(skipAndNext, 1000);
+        setTimeout(skipAndNext, 1000); // Tiếp tục chu trình
+      } else {
+        console.log('Không tìm thấy nút Next. Dừng lại.');
       }
     }, 3000);
   }, 4000);
