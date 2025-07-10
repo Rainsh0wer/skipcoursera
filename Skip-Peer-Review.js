@@ -1,4 +1,4 @@
-//coursera doi ID button nen fix lai
+// coursera doi ID button nen fix lai
 
 const radioGroups = document.querySelectorAll('div[role="radiogroup"]');
 
@@ -24,3 +24,6 @@ radioGroups.forEach(group => {
     highestPointsButton.click();
   }
 });
+
+// keo xuong cuoi trang
+window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
