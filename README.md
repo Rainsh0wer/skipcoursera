@@ -33,7 +33,7 @@ fetch('https://raw.githubusercontent.com/Rainsh0wer/skipcoursera/main/Skip-Video
 
 ```javascript
 // Để tự động tick đánh giá điểm
-fetch('https://raw.githubusercontent.com/Rainsh0wer/skipcoursera/main/Skip-Peer-Review.js')
+fetch('https://raw.githubusercontent.com/Rainsh0wer/skipcoursera/refs/heads/main/Skip-Peer-Review.js')
 .then(res => res.text())
 .then(eval);
 
