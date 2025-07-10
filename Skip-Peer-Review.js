@@ -25,8 +25,16 @@ radioGroups.forEach(group => {
   }
 });
 
-// keo xuong div cuoi
+// keo den div cuoi cung
 const targetDiv = document.querySelector('.cds-1.css-kqrlrs.cds-2.cds-3.cds-grid-item.cds-5.cds-8');
 if (targetDiv) {
   targetDiv.scrollIntoView({ behavior: 'smooth', block: 'end' });
 }
+
+// click nut Submit Review sau 1s
+setTimeout(() => {
+  const submitButton = document.querySelector('button.cds-131.cds-button-disableElevation.cds-button-primary.css-1drt86s');
+  if (submitButton && submitButton.getAttribute('aria-disabled') !== 'true') {
+    submitButton.click();
+  }
+}, 1000); // đợi 1 giây để radio buttons xử lý xong
