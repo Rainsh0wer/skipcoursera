@@ -25,5 +25,8 @@ radioGroups.forEach(group => {
   }
 });
 
-// keo xuong cuoi trang
-window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+// keo xuong div cuoi
+const targetDiv = document.querySelector('.cds-1.css-kqrlrs.cds-2.cds-3.cds-grid-item.cds-5.cds-8');
+if (targetDiv) {
+  targetDiv.scrollIntoView({ behavior: 'smooth', block: 'end' });
+}
